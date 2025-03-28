@@ -1,0 +1,222 @@
+*{margin: 0px;
+  padding: 0px;
+    box-sizing: border-box;
+      font-family: fantasy;}
+      .panel{height: 40px;
+        background-color:  #578F64;
+          color: white;
+            display: flex;
+              justify-content: space-evenly;
+                align-items: center;}
+                .navbar{height: 65px;
+                  background-color: #E6B50D;
+                    color: white;
+                      display: flex;
+                        align-items: center;
+                          justify-content: space-evenly;
+                          }
+                          .nav-logo{height: 100px;
+                            width: 75px;
+                              background-size: cover;
+                              }
+                              .logo{height: 100px;
+                              background-image:url("amazon_icon.png");
+                              width: 75px;
+                                background-size: cover;}
+                                .border{border:2px solid transparent;}
+                                .border:hover{border:1.5px solid white;}
+                                .nav-border:hover{border: 1px solid white;}
+                                .add-first{color: #cccccc;
+                                  margin-left: 2px;
+                                    font-size: 0.8rem;
+                                    }
+                                    .add-icon i{width: 15px;
+                                      height: 20px;}
+                                      .add-icon{font-size: 1rem;
+                                      }
+                                      .search-input{width: 100%;
+                                      align-items: center;
+                                      justify-content: center;
+                                      height: 40px;
+                                      font-size: 1rem;
+                                      border: none;}
+                                      .search-select{border-top-left-radius:  5px;
+                                        border-bottom-left-radius: 5px;
+                                          border-top-right-radius: 5px;
+                                            border-bottom-right-radius: 5px;
+                                                width: 40px;
+                                                  height: 40px;
+                                                   justify-content: center;
+                                                    align-items: center;
+                                                    font-size: 1rem;
+                                                     background-color: #cccccc;
+                                                      margin-right: 0px;
+                                                       border: none;
+                                                        display: flex;
+                                                        }
+                                                        .add-glass{display: flex;
+                                                        border-top-right-radius: 5px;
+                                                        border-bottom-right-radius: 5px;
+                                                        border-top-left-radius: 5px;
+                                                        border-bottom-left-radius: 5px;
+                                                          width: 45px;
+                                                            height: 40px;
+                                                             justify-content: center;
+                                                              align-items: center;
+                                                              font-size: 0.7rem;
+                                                               background-color: #FEBD68;
+                                                                 color: black;
+                                                                   border: none;
+                                                                   }
+                                                                   .search-bar{display: flex;
+                                                                   justify-content: space-evenly;
+                                                                   }
+                                                                   .search-bar:hover{border:2px solid #F89819;}
+                                                                   .nav-signin{font-size: 0.8rem;}
+                                                                   .nav-second{font-size: 0.95rem;
+                                                                     font-weight: 700;}
+                                                                     .nav-return{font-size: 0.8rem;
+                                                                       }
+                                                                       .nav-cart i{font-size: 20px;}
+                                                                       .nav-cart{font-size: 1rem;
+                                                                         font-weight: 700;
+                                                                         }
+                                                                         nav-address{height: 40px;
+                                                                           background-color: black;
+                                                                             color: white;
+                                                                               margin-top: 0px;
+                                                                                 display: flex;
+                                                                                   justify-content: space-evenly;
+                                                                                     align-items: center;}
+                                                                                     .panel-option p{margin-left: 10px;
+                                                                                     display: inline;}
+                                                                                     .panel-option{width: 70%;}
+                                                                                     .panel-deals{font-weight:700;}
+                                                                                     .hero-section{background-image: url("smartphones.jpg");
+                                                                                       height: 400px;
+                                                                                         background-size: cover;
+                                                                                           display: flex;
+                                                                                             justify-content: center;
+                                                                                               align-items: flex-end;
+                                                                                               }
+                                                                                               .hero-msg{
+                                                                                                  color: white;
+                                                                                                    height: 40px;
+                                                                                                       display: flex;
+                                                                                                        justify-content: center;
+                                                                                                         align-items: center;
+                                                                                                          width: 87%;
+                                                                                                           font-weight: 700;
+                                                                                                            margin-bottom: 25px;
+                                                                                                             font-family: 'Segoe UI';
+                                                                                               }
+                                                                                               .hero-msg a{color: deepskyblue;
+                                                                                                 text-decoration: none;
+                                                                                                 }
+                                                                                                 .amazon{color: black;}
+                                                                                                 .box{height: 200px;
+                                                                                                   width: 23%;
+                                                                                                     padding: 20px 0px 15px;
+                                                                                                       background-color: white;
+                                                                                                         margin-top: 20px;
+                                                                                                           margin-bottom: 20px;
+                                                                                                           }
+                                                                                                           .shop-section{display: flex;
+                                                                                                             justify-content: space-evenly;
+                                                                                                                 flex-wrap: wrap;
+                                                                                                                   background-color: #e2e7e6;
+                                                                                                                   }
+                                                                                                                   .box-image1{background-image: url("live.jpeg");
+                                                                                                                    height: 120px;
+                                                                                                                     width: 120px;
+                                                                                                                      background-size: cover;
+                                                                                                                       background-repeat: no-repeat;
+                                                                                                                        margin-top: 20px;
+                                                                                                                         margin-bottom: 20px;
+                                                                                                                         }
+                                                                                                                         .box-content{margin-left: 10px;
+                                                                                                                         margin-right: 10px;
+                                                                                                                         margin-top: 20px;
+                                                                                                                         margin-bottom:20px;}
+                                                                                                                         .box-image2{background-image: url("groceries.jpeg");
+                                                                                                                          height: 120px;
+                                                                                                                           width: 120px;
+                                                                                                                            background-size: cover;
+                                                                                                                             background-repeat: no-repeat;
+                                                                                                                               margin-top: 20px;
+                                                                                                                                 margin-bottom: 20px;
+                                                                                                                                 }
+                                                                                                                                 .box-image3{background-image: url("lotion.png");
+                                                                                                                                  height: 120px;
+                                                                                                                                   width: 120px;
+                                                                                                                                    background-size: cover;
+                                                                                                                                     background-repeat: none;
+                                                                                                                                       margin-top: 20px;
+                                                                                                                                         margin-bottom: 20px;
+                                                                                                                                         }
+                                                                                                                                         .box-image4{background-image: url("rice.jpg");
+                                                                                                                                          height: 120px;
+                                                                                                                                           width: 120px;
+                                                                                                                                            background-size: cover;
+                                                                                                                                             background-repeat: none;
+                                                                                                                                               margin-top: 20px;
+                                                                                                                                                 margin-bottom: 20px;
+                                                                                                                                                 }
+                                                                                                                                                 .box-image5{background-image: url("fashion.png");
+                                                                                                                                                  height: 120px;
+                                                                                                                                                   width: 120px;
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                     background-repeat: none;
+                                                                                                                                                       margin-top: 20px;
+                                                                                                                                                         margin-bottom: 20px;
+                                                                                                                                                         }
+                                                                                                                                                         .box-image6{background-image: url("badminton.jpg");
+                                                                                                                                                          height: 120px;
+                                                                                                                                                           width: 120px;
+                                                                                                                                                            background-size: cover;
+                                                                                                                                                             background-repeat: none;
+                                                                                                                                                               margin-top: 20px;
+                                                                                                                                                                 margin-bottom: 20px;
+                                                                                                                                                                 }
+                                                                                                                                                                 .box-image7{background-image: url("prime.jpg");
+                                                                                                                                                                  height: 150px;
+                                                                                                                                                                   width: 120px;
+                                                                                                                                                                    background-size: cover;
+                                                                                                                                                                     background-repeat: none;
+                                                                                                                                                                       margin-top: 20px;
+                                                                                                                                                                         margin-bottom: 20px;
+                                                                                                                                                                         }
+                                                                                                                                                                         .box-image8{background-image: url("mxplayer.jpeg");
+                                                                                                                                                                          height: 120px;
+                                                                                                                                                                           width: 120px;
+                                                                                                                                                                            background-size: cover;
+                                                                                                                                                                             background-repeat: none;
+                                                                                                                                                                               margin-top: 20px;
+                                                                                                                                                                                 margin-bottom: 20px;
+                                                                                                                                                                                 }
+                                                                                                                                                                                 .line{text-decoration: none;}
+                                                                                                                                                                                 .foot-panel1{background-color: #37475a;
+                                                                                                                                                                                   display: flex;
+                                                                                                                                                                                     justify-content: center;
+                                                                                                                                                                                       color: #ffffff;
+                                                                                                                                                                                         height: 50px;
+                                                                                                                                                                                           font-size: 0.85rem;
+                                                                                                                                                                                           }
+                                                                                                                                                                                            .footer{margin-top: 15px;}
+                                                                                                                                                                                            ul a{display: block;
+                                                                                                                                                                                              font-size: 0.85rem;
+                                                                                                                                                                                                margin-top: 10px;
+                                                                                                                                                                                                  color: #ffffff;
+                                                                                                                                                                                                    font-style: none;
+                                                                                                                                                                                                      margin-left: 15px;
+                                                                                                                                                                                                      }
+                                                                                                                                                                                                      .foot-panel5{background-color: #222f3d;
+                                                                                                                                                                                                        height: 450px;
+                                                                                                                                                                                                          color: #ffffff;
+                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                            /* .foot-panel2{margin-top: 10px;}*/
+                                                                                                                                                                                                            ul p{font-size: 1.1rem;
+                                                                                                                                                                                                              margin-left: 15px;
+                                                                                                                                                                                                              } 
+                                                                                               }
